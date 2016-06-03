@@ -11,29 +11,35 @@ $(document).ready(function() {
       $(".result").hide();
       $("#kakadu").show();
     }
-      else if (bevvy === "wine") {
+
+    if (snakes !== "no" && fun === "crocodile" || snakes !== "no" && environment === "desert") {
+      $(".result").hide();
+      $("#kakadu").show();
+    }
+
+      else if (bevvy === "wine" || fun === "wine") {
         $(".result").hide();
         $("#barossa").show();
     }
-      else if (fun === "crocodile") {
-        $(".result").hide();
-        $("#kakadu").show();
-    }
+
       else if (temp !== "cold" && environment === "coast") {
         $(".result").hide();
         $("#gold").show();
     }
+
       else if (temp !== "cold" && fun === "hike") {
         $(".result").hide();
         $("#daintree").show();
     }
-      else if (temp === "hot" && environment === "desert") {
-        $(".result").hide();
-        $("#kakadu").show();
-    }
-      else if (temp !== "hot" && bevvy !== "wine") {
+
+      else if (temp === "cold") {
         $(".result").hide();
         $("#melbs").show();
       }
+
+      else {
+        $(".result").hide();
+        $("#daintree").show();
+    }
     });
 });
