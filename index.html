@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -51,112 +49,105 @@
 <!-- End jumbotron -->
     <div class="container">
 <!--  FORM  -->
-        <form class="" action="index.html" method="post">
-  <!--  Question 1 -->
-            <h2>Let's get this out of the way...</h2>
-            <h2>Snakes.</h2>
-            <div class="radio">
-              <label>
-                <input type="radio" name="q1" value="no" checked>
-                Snakes?! I can't be in the same country as a snake.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="q1" value="meh">
-                Meh. I don't like to snuggle with them, but live and let live.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="q1" value="yes">
-                Love them! They're cute and cuddly little critters.
-              </label>
-            </div>
-  <!--  Question 2 -->
-            <h2>What kind of temperature do you prefer?</h2>
-            <select class="form-control" id="q2">
-              <option id="hot" value="hot">Hot! Leave me in the sun and let me roast!</option>
-              <option id="cold" value="cold">Cold. I love to wear coats.</option>
-              <option id="meh" value="meh">Either way. Just nothing too extreme.</option>
-            </select>
-  <!--  Question 3 -->
-            <h2>What sort of environment do you prefer?</h2>
-            <select class="form-control" id="q3">
-              <option id="coast" value="coast">Coastal</option>
-              <option id="forest" value="forest">Rainforest</option>
-              <option id="desert" value="desert">Desert</option>
-              <option id="urban" value="urban">Urban</option>
-              <option id="rural" value="rural">Countryside</option>
-            </select>
-  <!--  Question 4 -->
-            <h2>What's your idea of fun?</h2>
-            <select class="form-control" id="q4">
-              <option id="surf" value="surf">Surfing</option>
-              <option id="animals" value="animals">Cuddling cute animals</option>
-              <option id="dining" value="dining">Dining out</option>
-              <option id="wine" value="wine">Wine tasting</option>
-              <option id="hike" value="hike">Hiking remote forests</option>
-              <option id="crocodile" value="crocodile">Crocodile hunting</option>
-            </select>
-  <!--  Question 5 -->
-            <h2>Select your preferred beverage:</h2>
-            <select class="form-control" id="q5">
-              <option id="juice" value="juice">Freshly pressed tropical fruit juices</option>
-              <option id="wine" value="wine">Fine wine</option>
-              <option id="beer" value="beer">Handcrafted microbrews</option>
-              <option id="coffee" value="coffee">Velvety esspresso</option>
-            </select>
+      <form>
+<!--  Question 1 -->
+          <h2>Let's get this out of the way...</h2>
+          <h2>Snakes.</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q1" value="no" checked>
+              Snakes?! I can't be in the same country as a snake.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q1" value="meh">
+              Meh. I don't like to snuggle with them, but live and let live.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q1" value="yes">
+              Love them! They're cute and cuddly little critters.
+            </label>
+          </div>
+<!--  Question 2 -->
+          <h2>What kind of temperature do you prefer?</h2>
+          <select class="form-control" id="q2">
+            <option id="hot" value="hot">Hot! Leave me in the sun and let me roast!</option>
+            <option id="cold" value="cold">Cold. I love to wear coats.</option>
+            <option id="meh" value="meh">Either way. Just nothing too extreme.</option>
+          </select>
+<!--  Question 3 -->
+          <h2>What sort of environment do you prefer?</h2>
+          <select class="form-control" id="q3">
+            <option id="coast" value="coast">Coastal</option>
+            <option id="forest" value="forest">Rainforest</option>
+            <option id="desert" value="desert">Desert</option>
+            <option id="urban" value="urban">Urban</option>
+            <option id="rural" value="rural">Countryside</option>
+          </select>
+<!--  Question 4 -->
+          <h2>What's your idea of fun?</h2>
+          <select class="form-control" id="q4">
+            <option id="surf" value="surf">Surfing</option>
+            <option id="animals" value="animals">Cuddling cute animals</option>
+            <option id="dining" value="dining">Dining out</option>
+            <option id="wine" value="wine">Wine tasting</option>
+            <option id="hike" value="hike">Hiking remote forests</option>
+            <option id="crocodile" value="crocodile">Crocodile hunting</option>
+          </select>
+<!--  Question 5 -->
+          <h2>Select your preferred beverage:</h2>
+          <select class="form-control" id="q5">
+            <option id="juice" value="juice">Freshly pressed tropical fruit juices</option>
+            <option id="wine" value="wine">Fine wine</option>
+            <option id="beer" value="beer">Handcrafted microbrews</option>
+            <option id="coffee" value="coffee">Velvety esspresso</option>
+          </select>
 
-          <button type="submit" class="btn btn-primary" id=ok>OK!</button>
-        </form>
+        <button type="submit" class="btn" id=ok>OK!</button>
+      </form>
 <!--  End FORM -->
-      </div>
+    </div>
 <!--  Results -->
 
-      <div class="result" id="gold">
-        <h1>Your ideal Aussie destination is The Gold Coast!</h1>
-        <p> Enjoy sun, surf and 5 star dining choices in this cosmopolitan coastal city. Sip your iced flat white while you sunbake on the one of the best beaches in the world. Visit Australia's landmark wildlife park cuddle a koala. Don't forget to bring your sunscreen!
-        </p>
-      </div>
-
-      <div class="result" id="melbs">
-        <h1>Your ideal Aussie destination is The Gold Coast!</h1>
-        <p> Enjoy sun, surf and 5 star dining choices in this cosmopolitan coastal city. Sip your iced flat white while you sunbake on the one of the best beaches in the world. Visit Australia's landmark wildlife park cuddle a koala. Don't forget to bring your sunscreen!
-        </p>
-      </div>
-
-      <div class="result" id="daintree">
-        <h1>Your ideal Aussie destination is The Gold Coast!</h1>
-        <p> Enjoy sun, surf and 5 star dining choices in this cosmopolitan coastal city. Sip your iced flat white while you sunbake on the one of the best beaches in the world. Visit Australia's landmark wildlife park cuddle a koala. Don't forget to bring your sunscreen!
-        </p>
-      </div>
-
-      <div class="result" id="kakadu">
-        <h1>Your ideal Aussie destination is The Gold Coast!</h1>
-        <p> Enjoy sun, surf and 5 star dining choices in this cosmopolitan coastal city. Sip your iced flat white while you sunbake on the one of the best beaches in the world. Visit Australia's landmark wildlife park cuddle a koala. Don't forget to bring your sunscreen!
-        </p>
-      </div>
-
-      <div class="result" id="barossa">
-        <h1>Your ideal Aussie destination is The Gold Coast!</h1>
-        <p> Enjoy sun, surf and 5 star dining choices in this cosmopolitan coastal city. Sip your iced flat white while you sunbake on the one of the best beaches in the world. Visit Australia's landmark wildlife park cuddle a koala. Don't forget to bring your sunscreen!
-        </p>
-      </div>
-<!-- End Results -->
-
-      <hr>
-
-      <footer>
-        <p>Bloody Unreal Aussie Travel Service Ltd. 2016</p>
-      </footer>
+    <div class="result" id="gold">
+      <h1>Your ideal Aussie destination is The Gold Coast!</h1>
+      <p> Enjoy sun, surf and 5 star dining choices in this cosmopolitan coastal city. Sip your iced flat white while you sunbake on the one of the best beaches in the world. Visit Australia's landmark wildlife park cuddle a koala. Don't forget to bring your sunscreen!
+      </p>
     </div>
 
+    <div class="result" id="melbs">
+      <h1>Your ideal Aussie destination is The Gold Coast!</h1>
+      <p> Enjoy sun, surf and 5 star dining choices in this cosmopolitan coastal city. Sip your iced flat white while you sunbake on the one of the best beaches in the world. Visit Australia's landmark wildlife park cuddle a koala. Don't forget to bring your sunscreen!
+      </p>
+    </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <div class="result" id="daintree">
+      <h1>Your ideal Aussie destination is The Gold Coast!</h1>
+      <p> Enjoy sun, surf and 5 star dining choices in this cosmopolitan coastal city. Sip your iced flat white while you sunbake on the one of the best beaches in the world. Visit Australia's landmark wildlife park cuddle a koala. Don't forget to bring your sunscreen!
+      </p>
+    </div>
+
+    <div class="result" id="kakadu">
+      <h1>Your ideal Aussie destination is The Gold Coast!</h1>
+      <p> Enjoy sun, surf and 5 star dining choices in this cosmopolitan coastal city. Sip your iced flat white while you sunbake on the one of the best beaches in the world. Visit Australia's landmark wildlife park cuddle a koala. Don't forget to bring your sunscreen!
+      </p>
+    </div>
+
+    <div class="result" id="barossa">
+      <h1>Your ideal Aussie destination is The Gold Coast!</h1>
+      <p> Enjoy sun, surf and 5 star dining choices in this cosmopolitan coastal city. Sip your iced flat white while you sunbake on the one of the best beaches in the world. Visit Australia's landmark wildlife park cuddle a koala. Don't forget to bring your sunscreen!
+      </p>
+    </div>
+<!-- End Results -->
+
+    <hr>
+
+    <footer>
+      <p>Bloody Unreal Aussie Travel Service Ltd. 2016</p>
+    </footer>
+  </div>
   </body>
 </html>
