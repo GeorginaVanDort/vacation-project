@@ -7,6 +7,11 @@
   margin-top: 20px;
 }
 
+.jumbotron {
+  background-image: url(../img/syd.jpg);
+  background-size: contain;
+  color: white;
+}
 .images {
   border-width: thin;
   border-color: black;
