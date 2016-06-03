@@ -1,7 +1,15 @@
 .result {
   display: none;
+  align-self: center;
 }
 
-.btn-primary {
-margin-top: 20px;
+.btn {
+  margin-top: 20px;
+}
+
+.images {
+  border-width: thin;
+  border-color: black;
+  max-width: 50%;
+  border-radius: 20px;
 }
