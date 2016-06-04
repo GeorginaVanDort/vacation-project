@@ -1,5 +1,5 @@
-Portfolio
-A portfolio webpage. Friday June 3rd 2016
+Vacation Suggestor!
+Friday June 3rd 2016
 
 By Georgina Van Dort
 
