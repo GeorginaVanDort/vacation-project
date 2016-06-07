@@ -1,3 +1,22 @@
+#introbar {
+  background-image: url(../img/syd.jpg);
+  background-size: cover;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.jumbotron {
+  background-color: rgba(238, 238, 238, 0);
+  background-image: none;
+}
+
+.images {
+  border-width: thin;
+  border-color: black;
+  max-width: 50%;
+  border-radius: 20px;
+}
+
 .result {
   display: none;
   align-self: center;
@@ -7,14 +26,6 @@
   margin-top: 20px;
 }
 
-.jumbotron {
-  background-image: url(../img/syd.jpg);
-  background-size: contain;
-  color: white;
-}
-.images {
-  border-width: thin;
-  border-color: black;
-  max-width: 50%;
-  border-radius: 20px;
+footer {
+margin-left: 20px;
 }

@@ -12,9 +12,9 @@ $(document).ready(function() {
       $("#kakadu").show();
     }
 
-    if (snakes !== "no" && fun === "crocodile" || snakes !== "no" && environment === "desert") {
-      $(".result").hide();
-      $("#kakadu").show();
+      else if (snakes !== "no" && fun === "crocodile" || snakes !== "no" && temp !== "cold" && environment === "desert") {
+        $(".result").hide();
+        $("#kakadu").show();
     }
 
       else if (bevvy === "wine" || fun === "wine") {
@@ -22,7 +22,7 @@ $(document).ready(function() {
         $("#barossa").show();
     }
 
-      else if (temp !== "cold" && environment === "coast") {
+      else if (temp !== "cold" && environment === "coast" || temp !== "cold" && fun === "surf") {
         $(".result").hide();
         $("#gold").show();
     }
@@ -32,7 +32,7 @@ $(document).ready(function() {
         $("#daintree").show();
     }
 
-      else if (temp === "cold") {
+      else if (temp === "cold" || environment === "urban" && fun === "dining") {
         $(".result").hide();
         $("#melbs").show();
       }
@@ -41,5 +41,6 @@ $(document).ready(function() {
         $(".result").hide();
         $("#daintree").show();
     }
-    });
+
+  });
 });
