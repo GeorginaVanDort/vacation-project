@@ -3,6 +3,9 @@ Friday June 3rd 2016
 
 By Georgina Van Dort
 
+Check it out here:
+http://georginavandort.github.io/vacation-project/
+
 Description
 
 This is a webpage to suggest an Aussie destination for your next trip.
